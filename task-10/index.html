@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 10</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="successMessage" style="display: none; color: green;">Registration successful!</div>
+    <form id="registrationForm">
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login"><br>
+        <span id="loginError" class="error"></span><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+        <span id="emailError" class="error"></span><br>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br>
+        <span id="ageError" class="error"></span><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+        <span id="passwordError" class="error"></span><br>
+
+        <label for="repeatPassword">Repeat Password:</label>
+        <input type="password" id="repeatPassword" name="repeatPassword"><br>
+
+        <button type="button" id="registerButton">Register</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
